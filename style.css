@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    /* border: 2px solid rebeccapurple; */
+
+}
+
+.main-container{
+    background: #e0eafc; /* fallback for old browsers */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card{
+    background-color: white;
+    height: 350px;
+    width: 450px;
+    box-shadow: 3px -1px 11px 1px rgba(183, 183, 183, 0.75);
+
+
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+
+
+.card-content{
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+.logo{
+    position: absolute;
+    top: 42px;
+    left: 50px;
+}
+
+.card-content h1{
+    font-weight: 500;
+    position: absolute;
+    top: 80px;
+    left: 53px;
+    font-size: 23px;
+}
+
+
+.email{
+    width: 75%;
+    padding: 8px;
+    position: absolute;
+    left: 53px;
+    text-align: start;
+    top: 132px;
+    border: none;
+    background-color: rgb(228, 241, 241);
+    border-bottom: 1px solid  rgb(68, 68, 206) ;
+}
+
+
+.acc-li{
+    list-style: none;
+    font-size: 16px;
+    color: rgb(55, 55, 55);
+    position: absolute;
+    top: 185px;
+    left: 53px;
+
+}
+
+.acc-li a{
+    text-decoration: none;
+    color: #005DA6;
+    font-size: 15px;
+} 
+
+
+.security-key{
+    position: absolute;
+    top: 225px;
+    left: 53px;
+    color: #005DA6;
+    font-size: 14px;
+}
+
+.security-key a{
+    text-decoration: none;
+}
+
+.security-key img{
+    position: relative;
+    top: 4px;
+}
+.btn{
+    position: absolute;
+    bottom: 57px;
+    right: 40px;
+    background-color: #005DA6;
+    color: white;
+    border: none;
+    padding: 7px;
+
+
+    width: 24%;
+    font-size: 15px;
+
+}
+
+.btn-2{
+    width: 450px;
+    background-color: white;
+    display: flex;
+    height: 45px;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: row;
+    position: relative;
+    /* top: 14px; */
+    margin-top: 14px;
+     box-shadow: 3px -1px 11px 1px rgba(183, 183, 183, 0.75);
+     cursor: pointer;
+
+    border: none;
+    
+}
+
+.btn-2 img{
+   margin-left: 28px;
+   height: 35px;
+}
+
+.btn-2 p{
+    position: relative;
+    font-size: 16px;
+    left: 10px;
+    cursor: pointer;
+ 
+}
+
+.btn-2:hover{
+    /* opacity: 0.8; */
+    background-color: rgb(231, 231, 231);
+}
+
+
+/* #Responsive */
+@media screen and (max-width: 600px) {
+
+    .main-container{
+        background-color: white;
+        display: flex;
+        justify-content: center;
+
+
+    }
+    .card{
+        position: absolute;
+        top: 10px;
+        box-shadow: none;
+    }
+    
+    .btn-2{
+        box-shadow: none;
+        border: 1px solid black;
+        width: 350px;
+    
+        position: relative;
+        top: 50px;
+
+    }
+
+   
+}
